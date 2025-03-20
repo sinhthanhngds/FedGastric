@@ -1,0 +1,19 @@
+---
+bibliography: fed_learning.bib
+---
+
+\newpage
+
+# Introduction 
+
+Gastric cancer (GC) ranks fifth for incidence of all cancers and fourth for mortality with over 1 million new cases and 768,000 deaths worldwide in 2020. These numbers are predicted to increase by 2040 with 1.77 million new cases and 1.27 million deaths predicted1 worldwide, making it a significant global burden on health systems. Most GCs generally display no apparent symptoms in their early stages, aside from those shared with more common gastrointestinal issues such as ulcers and gastritis [@shellerFederatedLearningMedicine2020] Therefore consultation and subsequent diagnosis are often delayed, heavily affecting the patients’ chances as a late diagnosis often carries poor observed survival rates to as low as 30%  
+
+The current gold standard of GC detection is through histopathology screening of a biopsy or surgical specimen using a microscope to identify the cancerous features which is conventionally done by pathologists through a thorough manual screening of the tissue biopsies. However, visual analysis of tissue biopsies by pathologists is extremely laborious, time-consuming, and subjective. Conclusions drawn by one pathologist can be different from another. The correct analysis of histopathology is highly dependent upon the expertise and experience of the clinician, which makes manual histopathological analysis prone to possible misdetection and misdiagnosis due to human errors. Coupled with the current shortage of pathologists, long backlogs in the processing of patient cases are becoming common which consequently increases the likelihood of delayed cancer detection [@yongHistopathologicalGastricCancer2023]. 
+
+Deep learning offers promising solutions to these unique challenges through the development of automation and standardisation in histopathological analysis. By integrating this technology into diagnostic workflows, specific stages of the current analysis process can be enhanced, potentially reducing the overall rate of misdiagnosis and expediting turnaround times, ultimately alleviating the workload of pathologists while ensuring more consistent and reliable outcomes [@yongHistopathologicalGastricCancer2023].
+
+Currently, several studies [yan@dengArtificialIntelligenceApplications2022] have already attempted to develop deep learning models that can assist pathologists in diagnosing gastric cancer, aiming to improve accuracy and reduce human error. However, these models face challenges due to limited training datasets that inhibit the validation and generalisation of these models on unseen data.  
+
+One possible solution being presented is Federated Learning, a collaborative learning model that enables algorithms to learn from de-centralised data distributed across various institutions. With this process, classified data is never transferred beyond the safety of institutional firewalls and only the model specifics (e.g., parameters or gradients) are transferred for aggregation [@luFederatedLearningComputational2020a].  
+
+This project seeks to investigate the potential of federated learning in deep-learning classifier models for gastric histopathology. The team aims to develop a model that leverages the federated learning framework, enabling models to be trained collaboratively on distributed gastric histopathology datasets without compromising data privacy. The success of this project will demonstrate the efficacy of federated learning in enhancing the training and generalisation of gastric cancer diagnostic models on unseen data, utilising contributions from external institutions. Furthermore, this project will provide evidence that federated learning can be effectively applied to other domains that will benefit to the training of artificial intelligence models on sensitive, decentralised datasets. 

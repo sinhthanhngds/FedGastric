@@ -1,0 +1,48 @@
+---
+title:  'Federated Learning Model Application to Gastric Cancer Diagnosis'
+
+subtitle: 'Project Proposal - Group 7.2'
+author: [Warisara Siriponpaiboon, David Bain, James Murray, Sinh Thanh Nguyen, Taekjin Jeong, Emmanuel Niko Sindayen]
+
+keywords: [Artificial Intelligence, Deep Learning, Diagnostic Imaging, Histopathological Images, Federated Learning, Gastric Cancer]
+listings: true
+abstract-title: 'Abstract'
+abstract: |
+  Gastric cancer (GC) remains a formidable global health challenge, ranking as the fifth most common cancer worldwide in 2022. Research indicates that early detection significantly improves patient outcomes, with survival rates exceeding 90% in early-stage GC cases. This underscores the urgent need for diagnostic systems that enable faster and more accurate detection, thus facilitating timely medical interventions. 
+
+  Recent advances in data science and machine learning present promising opportunities to enhance diagnostic capabilities in the medical field. Deep learning models have demonstrated significant potential in improving diagnostic accuracy by employing artificial intelligence (AI) algorithms to analyse medical images for disease detection. However, despite these advancements, the clinical implementation of AI-based diagnostic tools requires further validation through large-scale datasets. This process, however, is often impeded by concerns regarding patient privacy and data security which blocks the sharing of live training data by medical institutions. 
+
+  To address these challenges, the team proposes the development of a federated learning model to support faster and more accurate GC diagnosis using histopathological images. This approach allows each participating institution to train the model locally on its respective data while sharing only the model weights for centralized aggregation. By eliminating the need for direct data sharing, this framework ensures the preservation of patient privacy while enabling collaborative model training across different medical clinics. 
+
+  Our study will evaluate the framework by comparing the diagnostic performance of the baseline local algorithms with their outcomes after undergoing the federated learning process. Through this project, the team aims to contribute to the ongoing discourse on the implementation of federated learning models as a viable solution to the data privacy and availability challenges hindering the adoption of AI algorithms in the medical field, specifically in diagnostic imaging. 
+
+  Group 7.2 Members:
+  
+  - 25099704 Sinh Thanh Nguyen
+  - 91082596 David Bain
+  - 25099654 Taekjin Jeong
+  - 25014616 Warisara Siriponpaiboon
+  - 24888796 Emmanuel Niko Sindayen
+  - 13879046 James Murray 
+
+
+## Titlepage Info
+titlepage: true
+titlepage-background: './images/ai_cover.pdf'
+
+## Table of Contents 
+toc: true 
+toc-own-page: true 
+lof: true
+lot: true
+
+footer-left: 'Group 7.2'
+header-right: '36105 iLab: Capstone Project' 
+
+## bibliography is on the first line of yaml data for the paper itself - this enables the citepro for pandoc to act as a reference manager when researching and typing 
+
+## Command in terminal to generate the pdf is:
+
+# pandoc --citeproc *.md -o report.pdf --template eisvogel --number-sections meta.yaml
+--- 
+

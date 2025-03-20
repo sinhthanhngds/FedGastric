@@ -1,0 +1,11 @@
+  987  python server.py
+  988  python server.py
+  989  python client_fn.py --cid=2
+  991  python client_fn.py --cid=2
+  993  python client_fn.py --cid=2
+  995  python client_fn.py --cid=2
+  997  python client_fn.py --cid=2
+  998  python client_fn.py --cid=2
+  999  python client_fn.py --cid=2
+ 1000  python client_fn.py --cid=2
+ 1002  history | grep "python" >> howtorun.txt
